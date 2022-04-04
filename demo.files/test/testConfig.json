@@ -1,0 +1,62 @@
+{
+  "Script": "hytradboi.asaql",
+  "TestCases": [
+    {
+      "Name": "Case 1 - Nominal",
+      "Inputs": [
+        {
+          "InputAlias": "readings",
+          "Type": "Data Stream",
+          "Format": "Json",
+          "FilePath": ".//testCases//01-in-sample_readings.json",
+          "ScriptType": "InputMock"
+        }
+      ],
+      "ExpectedOutputs": [
+        {
+          "OutputAlias": "readingsSQL",
+          "FilePath": ".//testCases//01-out-readingssql.json",
+          "Required": true
+        }
+      ]
+    },
+    {
+      "Name": "Case 2 - Missing readingNum",
+      "Inputs": [
+        {
+          "InputAlias": "readings",
+          "Type": "Data Stream",
+          "Format": "Json",
+          "FilePath": ".//testCases//02-in-sample_readings.json",
+          "ScriptType": "InputMock"
+        }
+      ],
+      "ExpectedOutputs": [
+        {
+          "OutputAlias": "readingsSQL",
+          "FilePath": ".//testCases//02-out-readingssql.json",
+          "Required": true
+        }
+      ]
+    },
+    {
+      "Name": "Case 3 - string readingNum",
+      "Inputs": [
+        {
+          "InputAlias": "readings",
+          "Type": "Data Stream",
+          "Format": "Json",
+          "FilePath": ".//testCases//03-in-sample_readings.json",
+          "ScriptType": "InputMock"
+        }
+      ],
+      "ExpectedOutputs": [
+        {
+          "OutputAlias": "readingsSQL",
+          "FilePath": ".//testCases//03-out-readingssql.json",
+          "Required": true
+        }
+      ]
+    }
+  ]
+}

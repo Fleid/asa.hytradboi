@@ -1,0 +1,7 @@
+{
+    "InputAlias": "readings",
+    "Type": "Data Stream",
+    "Format": "Json",
+    "FilePath": "sample_readings.json",
+    "ScriptType": "InputMock"
+}

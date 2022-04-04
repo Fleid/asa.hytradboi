@@ -1,0 +1,8 @@
+
+SELECT
+	System.Timestamp as windowEnd,
+	count(*) as c,
+	sum(TRY_CAST(readingNum as float)) as s
+INTO readingsSQL
+FROM readings TIMESTAMP BY readingTimestamp
+GROUP BY Tumbling(minute,1)

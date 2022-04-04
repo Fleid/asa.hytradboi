@@ -1,0 +1,14 @@
+{
+    "name": "hytradboi10",
+    "startFile": "hytradboi10.asaql",
+    "configurations": [
+        {
+            "filePath": "JobConfig.json",
+            "subType": "JobConfig"
+        },
+        {
+            "filePath": "Inputs/Local_readings.json",
+            "subType": "InputMock"
+        }
+    ]
+}
