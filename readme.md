@@ -1,6 +1,6 @@
 # hytradboi : faster inner dev loop for stream processing
 
-This repository holds the asset used for the **faster inner dev loop for stream processing** talk of the April 2022 edition of [Have You Tried Rubbing A DataBase On It](https://www.hytradboi.com/).
+This repository holds the assets used for the **faster inner dev loop for stream processing** talk of the April 2022 edition of [Have You Tried Rubbing A DataBase On It](https://www.hytradboi.com/).
 
 **Available content**:
 
